@@ -1,0 +1,1 @@
+setTimeout(() => console.log(document.getElementsByClassName("vjs-tech")[0].src), 1000);

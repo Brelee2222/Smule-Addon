@@ -2,5 +2,16 @@
     "manifest_version": 3,
     "name": "Smule Utility Extension",
     "description": "Provides extra tools on Smule to use",
-    "version": "1.0"
+    "version": "1.0",
+    "permissions": [
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "run_at" : "document_end",
+            "matches": ["https://www.smule.com/recording/*"],
+            "js": ["src/scripts/songdownload.js"],
+            "css": []
+        }
+    ]
 }
