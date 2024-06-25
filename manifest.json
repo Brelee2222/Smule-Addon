@@ -1,0 +1,6 @@
+{
+    "manifest_version": 3,
+    "name": "Smule Utility Extension",
+    "description": "Provides extra tools on Smule to use",
+    "version": "1.0"
+}
