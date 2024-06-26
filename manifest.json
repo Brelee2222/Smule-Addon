@@ -8,10 +8,10 @@
     ],
     "content_scripts": [
         {
-            "run_at" : "document_end",
-            "matches": ["https://www.smule.com/recording/*"],
+            "matches": ["https://www.smule.com/*"],
             "js": ["src/scripts/songdownload.js"],
-            "css": []
+            "css": [],
+            "all_frames" : true
         }
     ]
 }
